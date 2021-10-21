@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:gravity="center"
+    tools:context=".Fragments.LevelsFragment"
+    android:background="@drawable/adsasd"
+    >
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#673ab7"
+        android:minHeight="?attr/actionBarSize">
+
+        <ImageButton
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+
+
+    <GridLayout
+
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+
+        android:useDefaultMargins="true"
+        >
+
+
+        <Button
+            android:id="@+id/first"
+            android:layout_width="86dp"
+            android:layout_height="86dp"
+            android:backgroundTint="#d32f2f"
+            android:foregroundTint="#FFEB3B"
+            android:text="@string/first"
+            android:textColor="@color/black"
+            android:textSize="36sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/second"
+            android:layout_width="86dp"
+            android:layout_height="86dp"
+            android:text="@string/second"
+            android:textColor="@color/black"
+            android:textSize="36sp"
+            android:textStyle="bold"
+
+            android:backgroundTint="#ff6d00"/>
+        <Button
+            android:id="@+id/thrid"
+            android:text="3"
+            android:layout_width="86dp"
+            android:layout_height="86dp"
+            android:textColor="@color/black"
+            android:textSize="36sp"
+            android:textStyle="bold"
+
+            android:backgroundTint="#ffeb3b"/>
+        <Button
+            android:id="@+id/forth"
+            android:text="4"
+            android:layout_width="86dp"
+            android:layout_height="86dp"
+            android:textColor="@color/black"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:backgroundTint="#388e3c"/>
+        <Button
+            android:id="@+id/fifth"
+            android:text="5"
+            android:layout_width="86dp"
+            android:layout_height="86dp"
+            android:textColor="@color/black"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:backgroundTint="#039be5"/>
+        <Button
+            android:id="@+id/six"
+            android:text="6"
+            android:layout_width="86dp"
+            android:layout_height="86dp"
+            android:textColor="@color/black"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:backgroundTint="#3f51b5"/>
+
+
+    </GridLayout>
+
+    <Button
+
+        android:id="@+id/seven"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="финал"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:backgroundTint="#673ab7"/>
+
+
+
+
+</LinearLayout>
+
+
+
+
+</FrameLayout>
+
+
+
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.LostFragment"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/lost">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Попробуйте еще раз"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="#d50000"
+        android:fontFamily="casual"
+
+        android:gravity="center"
+        android:background="@drawable/round"/>
+
+    <Button
+        android:id="@+id/lostMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="меню"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_margin="46dp"
+        android:backgroundTint="#ffcdd2"/>
+
+
+
+
+</LinearLayout>

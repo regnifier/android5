@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">mumsProject</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">mathProject</string>
+    <string name="choose_lvl">Выберете уровень</string>
+    <string name="lvl1">Легкий</string>
+    <string name="lvl2">Средний</string>
+    <string name="lvl3">Сложный</string>
+    <string name="first">1</string>
+    <string name="second">2</string>
+    <string name="thrid">3</string>
+    <string name="forth">4</string>
+    <string name="fifth">5</string>
+    <string name="siv">+1</string>
+    <string name="six">=2</string>
+    <string name="main">1 + 1 = ?</string>
+    <string name="lvl1_1">1</string>
+    <string name="lvl1_10">10</string>
+    <string name="lvl1_9">9</string>
+    <string name="lvl1_8">8</string>
+    <string name="lvl1_7">7</string>
+    <string name="lvl1_6">6</string>
+    <string name="lvl1_5">5</string>
+    <string name="lvl1_4">4</string>
+    <string name="lvl1_2">2</string>
+    <string name="lvl1_3">3</string>
+    <string name="lvl1_0">0</string>
+    <string name="Final">суперфинал</string>
+</resources>
